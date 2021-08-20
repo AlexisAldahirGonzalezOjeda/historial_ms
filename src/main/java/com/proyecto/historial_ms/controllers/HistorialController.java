@@ -19,13 +19,13 @@ public class HistorialController {
     public HistorialController(HistorialRepository historialRepository) {
         this.historialRepository = historialRepository;
 
-        //Seed
+        /**Seed
         Historial newHistorial01 = new Historial("123456789", "Juan", "Perez", 30, "Masculino", 405, 4,
                 "Independiente", "Control Médico", "No", "No", "Sí", "Sí", "No", "No", "No", "Insulina, Amilina");
         Historial newHistorial02 = new Historial("987654321", "Sofia", "Lopez", 33, "Femenino", 0, 0,
                 "Ama de Casa", "Control Médico", "No", "No", "No", "No", "No", "No", "Si", "No");
         this.historialRepository.save(newHistorial01);
-        this.historialRepository.save(newHistorial02);
+        this.historialRepository.save(newHistorial02);**/
     }
 
 
