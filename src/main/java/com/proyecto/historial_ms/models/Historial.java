@@ -7,6 +7,7 @@ import java.util.Date;
 
 public class Historial {
     @Id
+    private String regNum;
     private String id;
     private String nombre;
     private String apellido;
@@ -26,8 +27,9 @@ public class Historial {
     private String transfusion;
     private String medicamentos;
 
-    public Historial(String id, String nombre, String apellido, Integer edad, String sexo, Integer cuarto, Integer sala, String ocupacion,
+    public Historial(String regNum, String id, String nombre, String apellido, Integer edad, String sexo, Integer cuarto, Integer sala, String ocupacion,
                      String motivoConsulta, String cardiovascular, String pulmonar, String digestivo, String diabetes, String renal, String quirurgico, String transfusion, String medicamentos) {
+        this.regNum = regNum;
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
